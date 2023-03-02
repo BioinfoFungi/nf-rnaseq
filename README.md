@@ -1,3 +1,22 @@
+```
+nf run main.nf  -profile test
+```
+`-profile test`使用的是`nextflow.config`中的test配置
+```
+ test      { includeConfig 'conf/test.config'      }
+```
+
+
+
+
+
+
+
+
+
+
+
+
 # ![nf-core/rnaseq](docs/images/nf-core-rnaseq_logo_light.png#gh-light-mode-only) ![nf-core/rnaseq](docs/images/nf-core-rnaseq_logo_dark.png#gh-dark-mode-only)
 
 [![AWS CI](https://img.shields.io/badge/CI%20tests-full%20size-FF9900?labelColor=000000&logo=Amazon%20AWS)](https://nf-co.re/rnaseq/results)[![Cite with Zenodo](http://img.shields.io/badge/DOI-10.5281/zenodo.1400710-1073c8?labelColor=000000)](https://doi.org/10.5281/zenodo.1400710)
